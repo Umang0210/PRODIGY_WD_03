@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;  /* Soothing light blue */
+  }
+  
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin: 0 auto;
+    width: 300px;
+  }
+  
+  .cell {
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #eee;
+  }
+  
+  #reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
